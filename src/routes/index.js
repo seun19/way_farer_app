@@ -6,7 +6,7 @@ const router = express.Router();
 export default function () {
   router.get('/', (req, res) => {
     // - res.render('index', { title: 'Express' });
-    res.send('Index Working. Lets go on......');
+    res.send('Welcom to Wayfarer App. Lets get going......');
   });
 
   return router;
